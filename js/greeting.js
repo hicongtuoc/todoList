@@ -19,7 +19,7 @@ function handleSubmit(event) {
 
 function paintInput() {
   const input = document.createElement("input");
-  input.placeholder = "Nhập tên của bạn tại đây";
+  input.placeholder = "Nhập tên của bạn tại đây:";
   input.type = "text";
   input.className = "name__input";
   const form = document.createElement("form");
